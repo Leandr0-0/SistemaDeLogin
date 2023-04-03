@@ -21,4 +21,6 @@ senha_digitada = input('Digite sua senha: ')
 # Caso não exista, cadastrar usuário e senha:
 usuarios.append(usuario_digitado)
 senhas.append(senha_digitada)
-# 
+
+# confirmar que funcionou
+print(usuarios)
