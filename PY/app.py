@@ -39,6 +39,6 @@ elif resposta == '2':
     # Pedir senha
     senha_digitada = input('digite sua senha: ')
     # Verificar se o usuário está na lista
-    if usuario_digitado in usuarios:
-        print('Encontrado!')
+    for indece, item in enumerate(usuarios):
+        print(indece, item)
     # Verificar se a senha fornecida pelo usuário e a mesma da lista
