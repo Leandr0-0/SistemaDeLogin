@@ -16,19 +16,23 @@ resposta = input('[1] Cadastra novo usuário [2] Fazer login: ')
 usuarios = ['carol', 'amanda', 'jeff']
 senhas = ['12345', 'abcde', '123abc']
 
+
 if resposta =='1':
     # Recebendo um usuario:
     usuario_digitado = input('Digite seu usuário: ')
+    if usuario_digitado in usuarios:
+        print('Usuário existente!')
+        
+    else:
+        # Recebendo uma senha:
+        senha_digitada = input('Digite sua senha: ')
 
-    # Recebendo uma senha:
-    senha_digitada = input('Digite sua senha: ')
+        # Caso não exista, cadastrar usuário e senha:
+        usuarios.append(usuario_digitado)
+        senhas.append(senha_digitada)
 
-    # Caso não exista, cadastrar usuário e senha:
-    usuarios.append(usuario_digitado)
-    senhas.append(senha_digitada)
-
-    # Confirmar que funcionou
-    print(usuarios)
+        # Confirmar que funcionou
+        print(usuarios)
 
 # Permitir que usuários já cadastrados façam login 
 elif resposta == '2':
@@ -37,8 +41,17 @@ elif resposta == '2':
     # Pedir usuário
     usuario_digitado = input('Digite seu usuário: ')
     # Pedir senha
-    senha_digitada = input('digite sua senha: ')
+    senha_digitada = input('Digite sua senha: ')
     # Verificar se o usuário está na lista
-    for indece, item in enumerate(usuarios):
-        print(indece, item)
-    # Verificar se a senha fornecida pelo usuário e a mesma da lista
+    encontrado = False
+    for indece, usuario in enumerate(usuarios):
+        if usuario_digitado == usuario and senha_digitada == senhas[indece]:
+            print('Login feito com sucesso!')
+            encontrado = True
+        elif encontrado == False:
+            print('Usuário ou senha incorreto!')
+
+else:
+    print('Digite apenas 1 ou 2')
+        
+    
