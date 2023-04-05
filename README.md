@@ -9,7 +9,7 @@ Para usufruir do **Sistema de Cadastro** será necessário baixar e instalar o P
 </div>
 
 ### Uso do programa:
-<br>Após ter instalado ao executar o arquivo do Python o terminal perguntara ao usuário qual das duas opções ele deseja executar </br>
+<br>Após ter instalado Python ao executa-lo no terminal sugirá duas opções que o usuário deverá escolher executar </br>
 <br> [1] Cadastra novo usuário [2] Fazer login:</br>
 <div align="center">
 <img src="https://user-images.githubusercontent.com/126103951/230150017-df01199a-95b3-4008-89dc-e6b9de431a9b.png"/>
