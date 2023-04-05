@@ -20,3 +20,4 @@ Para usufruir do **Sistema de Cadastro** será necessário baixar e instalar o P
 <div align="center">
 <img src="https://user-images.githubusercontent.com/126103951/230152158-93358780-f650-4060-8692-98fb0818c94f.png"/>
 </div>
+<br> Se o usuário escolher a opção n° **1** - *Cadastra novo usuário* - e ao em vez de por um novo colocar um usuário já cadastrado o sistema avisará: </br> 
