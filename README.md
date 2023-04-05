@@ -8,4 +8,15 @@ Para usufruir do **Sistema de Cadastro** será necessário baixar e instalar o P
   https://youtu.be/nyiRdrI2HQU
 </div>
 
+### Uso do programa:
+<br>Após ter instalado ao executar o arquivo do Python o terminal perguntara ao usuário qual é a sua jogada e lhe oferecerá as opções: </br>
+<div align="center">
+<img src="https://user-images.githubusercontent.com/126103951/230150017-df01199a-95b3-4008-89dc-e6b9de431a9b.png"/>
+</div>
 
+<br> Se por ventura o usuário escolher outra opção sem ser as sugeridas **1** ou **2** o programa irar informar:</br>
+<br> *Digite apenas 1 ou 2* </br>
+
+<div align="center">
+<img src="https://user-images.githubusercontent.com/126103951/230152158-93358780-f650-4060-8692-98fb0818c94f.png"/>
+</div>
