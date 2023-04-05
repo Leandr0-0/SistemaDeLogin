@@ -39,5 +39,8 @@ Para usufruir do **Sistema de Cadastro** será necessário baixar e instalar o P
 <img src="https://user-images.githubusercontent.com/126103951/230163070-f3344506-e264-49a3-99d0-e91906e3dc7b.png"/>
 </div> </br>
 
+<br> Quando o usuário já tem cadastro e ele quer fazer login a opção escolhida é a **2** e após digitar o usuário e senha o terminal informa que o *Login foi feito com sucesso!* </br>
 
-
+<br> <div align="center">
+<img src="https://user-images.githubusercontent.com/126103951/230165832-d9b56199-3a72-4e2c-b7c7-6d1331af8ecc.png"/>
+</div> </br>
