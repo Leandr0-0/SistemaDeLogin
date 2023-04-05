@@ -29,6 +29,6 @@ Para usufruir do **Sistema de Cadastro** será necessário baixar e instalar o P
 <br> Essa é a lista de usuários já cadastrados : Leo, Luiz e Filipe </br>
 <br> E essas são suas respectivas senhas: BolinhaDeGolf, r2d2c3po e RuffGhanor </br>
 
-<div align="center">
-<img src="https://user-images.githubusercontent.com/126103951/230160782-0e72c0fe-d189-43d5-9b9b-067ab115c273.png"/>
-</div>
+<br> <div align="center">
+<img src="https://user-images.githubusercontent.com/126103951/230161432-137374c9-f722-4407-ae85-fefcdc120f1e.png"/>
+</div> </br>
