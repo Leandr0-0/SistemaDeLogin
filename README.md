@@ -23,9 +23,10 @@ Para usufruir do **Sistema de Cadastro** será necessário baixar e instalar o P
 </div>
 <br>E se o usuário escolher a opção nº 1 - Cadastra novo usuário - e ao em vez de por um novo colocar um usuário já cadastrado o sistema avisará:</br> 
 
-<div align="center">
+<br> <div align="center">
 <img src="https://user-images.githubusercontent.com/126103951/230156448-44040bc1-d8a5-4afe-990d-4b9dbb6c2c7b.png"/>
-</div>
+</div> </br>
+
 <br> Essa é a lista de usuários já cadastrados : Leo, Luiz e Filipe. </br>
 <br> E essas são suas respectivas senhas: BolinhaDeGolf, r2d2c3po e RuffGhanor. </br>
 
