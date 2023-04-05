@@ -8,12 +8,15 @@ o sistema deve alertar caos o loguns ou a senha não estejam corretos'''
 # O sistema deve alerta caso o login ou a senha não estejam corretos;
 
 # O sistema deve alerta caso o login ou a senha não estejam corretos
+
 # Permitindo que o usuário cadastrados façam login
+
 resposta = input('[1] Cadastra novo usuário [2] Fazer login: ')
 
+
 # Armazenado os usuários e existentes:
-usuarios = ['carol', 'amanda', 'jeff']
-senhas = ['12345', 'abcde', '123abc']
+usuarios = ['Leo', 'Luiz', 'Filipe']
+senhas = ['258456', 'bb8c3po', 'RuffGhanor']
 
 
 if resposta == '1':
@@ -30,6 +33,9 @@ if resposta == '1':
         usuarios.append(usuario_digitado)
         senhas.append(senha_digitada)
 
+        # Confirmação de Adição de usuário:
+        print(usuarios)
+
 
 # Permitir que usuários já cadastrados façam login 
 elif resposta == '2':
@@ -42,8 +48,8 @@ elif resposta == '2':
 
     # Verificar se o usuário está na lista
     encontrado = False
-    for indece, usuario in enumerate(usuarios):
-        if usuario_digitado == usuario and senha_digitada == senhas[indece]:
+    for indece, usuarios in enumerate(usuarios):
+        if usuario_digitado == usuarios and senha_digitada == senhas[indece]:
             print('Login feito com sucesso!')
             encontrado = True
         elif encontrado == False:
