@@ -32,3 +32,12 @@ Para usufruir do **Sistema de Cadastro** será necessário baixar e instalar o P
 <br> <div align="center">
 <img src="https://user-images.githubusercontent.com/126103951/230161432-137374c9-f722-4407-ae85-fefcdc120f1e.png"/>
 </div> </br>
+
+<br> Ao se cadastrar um novo usuário ele fica salvo na lista de usuários cadastrado. Nesse caso, só havia Leo, Luiz e Filipe. Foi adicionado o João. </br>
+
+<br> <div align="center">
+<img src="https://user-images.githubusercontent.com/126103951/230163070-f3344506-e264-49a3-99d0-e91906e3dc7b.png"/>
+</div> </br>
+
+
+
