@@ -1,23 +1,18 @@
 '''O sistema deve permitir que novos usuários sejam cadastrados e não deve permitir
 que usuários já cadastrados se recadrastem. Usuários já existentes podem fazer login e
-o sistema deve alertar caos o loguns ou a senha não estejam corretos'''
+o sistema deve alertar caso o algum ou a senha não estejam corretos'''
 
-# O sietema de login deve permitir que novos usuários sejam cadastrados;
-# O sistema não deve permitir que usuários duplicados sejam recadastrados;
-# Usuários cadastrados podem fazer login:
-# O sistema deve alerta caso o login ou a senha não estejam corretos;
-
-# O sistema deve alerta caso o login ou a senha não estejam corretos
-
+# Permitir que novos usuários sejam cadastrados;
+# Não deve permitir que usuários já cadastrados sejam recadastrados;
+# Usuários cadastrados podem fazer login;
+# Alerta caso o login ou a senha não estejam corretos;
 # Permitindo que o usuário cadastrados façam login
 
 resposta = input('[1] Cadastra novo usuário [2] Fazer login: ')
 
-
-# Armazenado os usuários e existentes:
+# Armazenado os usuários existentes:
 usuarios = ['Leo', 'Luiz', 'Filipe']
-senhas = ['258456', 'bb8c3po', 'RuffGhanor']
-
+senhas = ['BolinhaDeGolf', 'r2d2c3po', 'RuffGhanor']
 
 if resposta == '1':
     # Recebendo um usuario:
@@ -58,4 +53,4 @@ elif resposta == '2':
 
 else:
     print('Digite apenas 1 ou 2')
-        
+   
